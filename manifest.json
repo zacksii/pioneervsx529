@@ -1,0 +1,9 @@
+{
+    "domain": "pioneervsx529",
+    "name": "Pioneer VSX-529",
+    "version": "1.0",
+    "documentation": "https://github.com/zacksii/pioneer_vsx529",
+    "requirements": [],
+	"config_flow": true,
+    "codeowners": ["@zackii"]
+}
