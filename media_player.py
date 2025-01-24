@@ -477,11 +477,11 @@ class PioneerDevice(MediaPlayerEntity):
             if self.hass:
                 self.hass.loop.call_soon_threadsafe(self.async_write_ha_state)
                 
-    def volume_up(self):
+    async def volume_up(self):
         """Volume up media player."""
         await self.telnet_command("VU")
 
-    def volume_down(self):
+    async def volume_down(self):
         """Volume down media player."""
         await self.telnet_command("VD")
         
